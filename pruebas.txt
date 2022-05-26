@@ -1,0 +1,46 @@
+Metodo GET
+http://localhost/APIREST/pacientes?page=1
+http://localhost/APIREST/pacientes?id=1
+
+Metododo Login
+POST/aut
+no exites el PUT POST Para crear usuario 
+{
+    "usuario": "",
+    "password":"",
+
+}
+
+Metododo POST/pacientes
+{
+    "dni": "1222",
+    "nombre": "Edwin Efrain",
+    "direccion": "calle 9",
+    "codigop": "20001",
+    "telefono": "74529966",
+    "genero": "F",        
+    "fechaNacimiento": "1997-11-03",
+    "correo": "usuario100@gmail.com",
+    "token":"c1b8b004b4a094532eadbe83db385a6d"
+    
+}
+Metodo PUT/pacientes
+{
+    "pacienteid": "14",
+    "dni": "1222",
+    "nombre": "Edwin Efrain",
+    "direccion": "calle 9",
+    "codigop": "20001",
+    "telefono": "74529966",
+    "genero": "F",        
+    "fechaNacimiento": "1997-11-03",
+    "correo": "usuario100@gmail.com",
+    "token":"c1b8b004b4a094532eadbe83db385a6d"
+    
+}
+Metodo Delete /pacientes
+{
+    "pacienteid": "16",
+    "token":"c1b8b004b4a094532eadbe83db385a6d"
+    
+}
